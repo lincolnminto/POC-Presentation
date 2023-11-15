@@ -15,8 +15,10 @@
         <class>app.entity.View</class>
         <class>app.entity.Application</class>
         <class>app.entity.ApplicationUser</class>
+        <class>app.entity.Task</class>
         <properties>
             <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+            <property name="eclipselink.logging.level" value="FINE"/>
         </properties>
     </persistence-unit>
 </persistence>
